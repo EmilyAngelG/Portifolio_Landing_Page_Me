@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Pege Me - Emily Angel G</title>
+    <link rel="shortcup icon" href="imagens/LogoEA.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="Menu_inicio">
+        <a href="#Seção_sobre_mim" class="Link_sobre_mim">Sobre mim</a>
+        <a href="#Seção_projetos">Projetos</a>
+        <a href="#Seção_contato">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <section class="Seção_inicial">
+        <div class="Div_inicial">
+            <h1 class="Titulo_inicial">Meu nome é <br>Emily Angel</h1>
+            <p class="Paragrafo_inicial">Seja bem-vindo(a) ao meu portifólio</p>
+        </div>
+        <img class="Minha_foto_inicial" alt="MinhaFoto" src="imagens/MinhaFoto2.png">
+    </section>
+    <a name="Seção_sobre_mim"><section class="Seção_sobre_mim"></a>
+        <img class="Imagem_sobre_mim" alt="Minha Foto" src="imagens/MinhaFoto.jpg">
+        <div class="Div_sobre_mim">
+            <h3 class="Titulo_sobre_mim">Sobre mim</h3>
+            <p class="Paragrafo_sobre_mim">Olá, muito prazer! Meu nome é Emily Angel e sou aspirante a desenvolvedora web. Conheci a 
+                área de desenvolvimento enquanto cursava Engenharia Biomédica na Universidade Federal de 
+                Pernambuco e desde então me tornei uma entusiasta da área em especial no que diz respeito a 
+                front end. Buscando uma formação mais específica nessa área, decidi migrar a minha formação
+                e agora curso Desenvolvimento de Software Multiplataforma pela Fatec Zona Leste em São Paulo. 
+                Escolhi este curso e esta instituição, pois, pude verificar que a grade de formação é moderna e 
+                focada nas necessidades de mercado atual. Ainda estou em processo de aprendizagem e espero poder 
+                fazer parte do mundo do desenvolvimento em breve.
+            </p>
+            <div class="Div_botões_sobre_mim">
+                <a href="https://github.com/EmilyAngelG" target="_blank"><button class="Botão_sobre_mim">
+                    <img class="Imagem_botão_github" src="imagens/Botão_GitHub.transparente.png" 
+                    alt="GitHub"></button></a>
+                <a href="https://www.linkedin.com/in/emily-angel-904103275/" target="_blank">
+                    <button class="Botão_sobre_mim"><img class="Imagem_botão_linkedin"
+                    src="imagens/Botão LinkedIn.transparente.png" alt="LinkedIn"></button></a>
+                <a><button class="Botão_sobre_mim"><img class="Imagem_botão_curriculo" 
+                    src="imagens/Botão Curriculo.transparente.png"></button></a>
+            </div>
+        </div>
+    </section>
+    <a name="Seção_projetos"><section class="Seção_projetos"></a>
+        <h3 class="Titulo_h3">Meus projetos</h3>
+        <div class="Div_imagens_seção_projetos1">
+            <a href="file:///C:/Users/USU%C3%81RIO/OneDrive/Documentos/C%C3%B3digos/Repositorio_aprendizagem/Landing%20Page%20Pet/index.html" 
+            target="_blank"><img class="Imagem_projeto1" alt="Projeto1" src="imagens/Imagem_Projeto1.png"></a>
+            <a><img class="Imagem_desenvolvimento" alt="Em desenvolvimento" src="imagens/Imagem_desenvolvimento.png"></a>
+            <a><img class="Imagem_desenvolvimento" alt="Em desenvolvimento" src="imagens/Imagem_desenvolvimento.png"></a>
+        </div>    
+        <div class="Div_botões_seção_projetos1">
+            <button class="Botão_projeto">Pet Friendly</button>
+            <button class="Botão_projeto">Em desenvolvimento</button>
+            <button class="Botão_projeto">Em desenvolvimento</button>
+        </div>
+        <div class="Div_imagens_seção_projetos2">
+            <a><img class="Imagem_desenvolvimento" alt="Em desenvolvimento" src="imagens/Imagem_desenvolvimento.png"></a>
+            <a><img class="Imagem_desenvolvimento" alt="Em desenvolvimento" src="imagens/Imagem_desenvolvimento.png"></a>
+            <a><img class="Imagem_desenvolvimento" alt="Em desenvolvimento" src="imagens/Imagem_desenvolvimento.png"></a>
+        </div>
+        <div class="Div_botões_seção_projetos2">
+            <button class="Botão_projeto">Em desenvolvimento</button>
+            <button class="Botão_projeto">Em desenvolvimento</button>
+            <button class="Botão_projeto">Em desenvolvimento</button>
+        </div>
+    </section>
+    <a name="Seção_contato"><section class="Seção_contato"></a>
+        <h3 class="Titulo_h3">Contato</h3>
+        <div class="Div_contato">
+            <div class="Div_contato_botões">
+                <p class="Paragrafo_contato">Entre em contato comigo pelo meu LinkedIn ou Whatssap</p>
+                <a href="https://www.linkedin.com/in/emily-angel-904103275/" target="_blank">
+                    <img src="imagens/Botãolinkedin_simples.png" alt="LinkedIn"
+                    class="Imagem_botão_linkedin_contato"></a>
+                <a>
+                    <img src="imagens/botãowhats.simples.jpg" alt="Whatssap"
+                    class="Imagem_botão_whats_contato"></a>
+            </div>
+            <div class="Div_contato_form">
+                <h2 class="Titulo_h2">Se preferir me envie um email ou preencha o formulário abaixo:</h2>
+                <form class="Formulario_contato" action="cadastro.js">
+                    <p><label for="inome">Nome:</label><input type="text" name="nome" id="inome"></p>
+                    <p><label for="isobrenome">Celular:</label><input type="text" name="celular" id="icelular"></p>
+                    <p><label for="iemail">Email:</label><input type="email" name="email" id="iemail"></p>
+                    <p><label for="imensagem">Sua mensagem:</label><input type="text" name="mensagem" id="imensagem"></p>
+                    <p><input type="submit" value="Enviar mensagem"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <Section class="Seção_final">
+        <nav class="Menu_final">
+            <a>Sobre mim</a>
+            <a>Projetos</a>
+            <a>Contato</a>
+        </nav>
+    </Section>
+    <section class="Rodape">
+        <p class="Paragrafo_rodape">Página desenvolvida por Emily Angel</p>
+    </section>
+</footer>
+
+</body>
+</html>

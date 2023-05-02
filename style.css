@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@300;600&display=swap');
+
+*{ /*Reset no estilo geral*/
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(45deg, rgb(245, 113, 212), rgb(173, 30, 150),rgb(94, 45, 85), 
+     rgb(55, 17, 73), rgb(52, 34, 65),rgb(128, 48, 122), rgb(230, 92, 218));
+}
+
+/*INÍCIO*/
+header{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    border-bottom: 1px solid rgba(228, 213, 243, 0.897);
+    padding: 30px;
+    padding-right: 160px;
+}
+
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.Menu_inicio{
+    display: flex;
+    gap: 80px;
+}
+
+
+/*CORPO*/
+.Seção_inicial{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.Minha_foto_inicial{
+    height: 400px;
+    border-radius: 500px;
+}
+
+.Titulo_inicial{
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    color: rgb(235, 196, 203);
+    text-shadow: 1px 1px 3px black;
+    padding-bottom: 40px;
+    line-height: 100px;
+}
+
+.Paragrafo_inicial{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(235, 196, 203);
+    text-shadow: 1px 1px 1px black;
+}
+
+.Seção_sobre_mim{
+    background-color: rgb(175, 14, 175);
+    border-radius: 50px;
+    margin: 30px;
+    display: flex;
+    align-items:flex-start;
+    gap: 60px;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 50px;
+    padding-right: 85px;
+}
+
+.Imagem_sobre_mim{
+    height: 300px;
+    border-radius: 60px;
+}
+
+.Div_sobre_mim{
+    display: flex;
+    flex-direction: column;
+}
+
+.Titulo_sobre_mim{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    line-height: 80px;
+}
+
+.Paragrafo_sobre_mim{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 20px;
+}
+
+.Div_botões_sobre_mim{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+@keyframes animação_botão{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+.Botão_sobre_mim:hover{
+    animation-name: animação_botão;
+    animation-duration: 0.6s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:unset;
+    animation-direction: normal;
+}
+
+.Botão_sobre_mim{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Imagem_botão_github{
+    height: 70px;
+}
+
+.Imagem_botão_linkedin{
+    height: 55px;
+}
+
+.Imagem_botão_curriculo{
+    height: 60px;
+}
+
+
+/*CORPO PROJETOS*/
+.Seção_projetos{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 80px;
+}
+
+.Titulo_h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.Div_imagens_seção_projetos1, .Div_imagens_seção_projetos2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.Imagem_projeto1{
+    height: 200px;
+    cursor: pointer;
+}
+
+.Imagem_desenvolvimento{
+    height: 200px;
+    cursor: pointer;
+}
+
+
+.Div_botões_seção_projetos1, .Div_botões_seção_projetos2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 95px;
+    padding-bottom: 40px;
+}
+
+.Botão_projeto{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px;
+    width: 300px;
+    background: none;
+    border: none;
+}
+
+.Imagem_projeto1:hover{
+    animation-name: animação_botão;
+    animation-duration: 0.6s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:unset;
+    animation-direction: normal;
+}
+
+.Imagem_desenvolvimento:hover{
+    animation-name: animação_botão;
+    animation-duration: 0.6s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:unset;
+    animation-direction: normal;
+}
+
+.Div_contato{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding-bottom: 200px;
+    align-items:first baseline;
+}
+
+.Imagem_botão_linkedin_contato{
+    height: 80px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.Imagem_botão_whats_contato{
+    height: 80px;
+    border-radius: 20px;
+}
+
+.Seção_contato{
+    padding-top: 40px;
+}
+
+.Div_contato_botões{
+    width: 300px;
+}
+
+.Paragrafo_contato{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 20px;
+}
+
+.Div_contato_form{
+    background-color: rgb(175, 14, 175);
+    border-radius: 50px;
+    width: 600px;
+}
+
+.Titulo_h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align:start;
+    padding: 30px;
+}
+
+.Formulario_contato{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align:start;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
